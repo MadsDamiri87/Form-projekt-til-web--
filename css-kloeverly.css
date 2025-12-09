@@ -1,0 +1,100 @@
+:root {
+  --primary-bg: #e1dbcb;
+  --primary-green: #222422;
+  --primary-tekst: #454534;
+  --primary-hover: #534243;
+  --primary-h1: #000000;
+}
+
+#main-header {
+  margin-top: 0px;
+  background-color: var(--primary-bg);
+  padding: 0rem;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: blue;
+  font-style: italic;
+  font-size: larger;
+
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav {
+  padding: 0%;
+  width: 100%;
+  margin: 0%;
+}
+
+ul li {
+  margin: 15px;
+}
+
+
+
+#bobpic{
+    margin-top: 0rem;
+    background-image: url("Billeder/Bob.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    max-height: 350px;
+    grid-column: 1 / 6;
+    grid-row: 2;  
+}
+
+/* .bob {
+    max-height: 400px;
+    grid-row: 3;
+    
+} */
+
+#main-header ul {
+  margin: 0px;
+  display: flex;
+  gap: 1.8rem;
+  justify-content: right;
+  list-style: none;
+  margin-right: 3rem;
+}
+
+#grid-body {
+  display: grid;
+  margin-top: 0px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 150px 1fr 1fr;
+  min-height: 100vh;
+}
+
+#name {
+  grid-column: 3;
+
+}
+
+h1 {
+  justify-content: center;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-weight: initial;
+  font-size: 4rem;
+}
+footer {
+  background-color: var(--primary-bg);
+  text-align: center;
+  padding: 2px;
+  margin: 0%;
+}
+
+
+
