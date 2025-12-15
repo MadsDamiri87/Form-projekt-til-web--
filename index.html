@@ -4,32 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kløverly</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css-kloeverly.css" />
   </head>
   <body>
     <header id="main-header">
-      <nav>
+      <nav aria-label="main navigation">
         <ul>
-          <li ><a href="index.html">Hjem</a> </li>
-          <li><a href="Join-us.html">Join us</a></li>
+          <li><a href="index.html">Hjem</a></li>
           <li><a href="about-us.html">Om Kløverly</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="grid-body">
+      <section id="grid-body" aria-label="Main content">
         <div id="name">
           <h1>Kløverly</h1>
-        <div>
-        </div>
-        </div>
-         <div id="bobpic">
-          
         </div>
         <div>
-        </div> 
-        <div>
+          <img
+            src="Billeder/Logo2.png"
+            id="Logo2"
+            alt="Kløverly logo"
+            aria-hidden="true"
+          />
+        </div>
+        <div id="bobpic"></div>
+      </section>
+
+      <section id="grid-body-buttom" aria-label="text-body">
+        <div id="Main-text">
+          <h2>Kløverly</h2>
+          <p>Et sted at høre til. Et fællesskab at vokse i.</p>
+          <p class="text-body" align="center">
+            Kløverly er et grønt kollektiv, hvor mennesker lever sammen med
+            omtanke for hinanden og for verden omkring os. Her tæller de små
+            handlinger, fællesskabet står stærkt, og ingen står alene. Vi tror
+            på, at bæredygtighed ikke kun handler om klima – men også om
+            relationer, ansvar og følelsen af at høre til. Måske er Kløverly
+            også noget for dig.
+          </p>
         </div>
       </section>
     </main>
