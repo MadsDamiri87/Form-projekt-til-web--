@@ -66,6 +66,19 @@ h1 {
   grid-row: 2;
 }
 
+#fronpagepic {
+  margin-top: 0rem;
+  background-image: url("Billeder/kloeverly.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px;
+  max-height: 350px;
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+
 #main-header ul {
   margin: 0px;
   display: flex;
